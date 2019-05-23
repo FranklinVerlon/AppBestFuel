@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">最好的燃料</string>
+    <string name="ethanol">乙醇</string>
+    <string name="gasoline">汽油</string>
+    <string name="what_to_use">最好使用......</string>
+    <string name="ethanol_textview">升乙醇价格</string>
+    <string name="gasoline_textview">升汽油价格</string>
+    <string name="slogan">找到最好的燃料</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sloganTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="#BBDEFB"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:text="@string/slogan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/gasolineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="6dp"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:text="@string/gasoline_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/gasoline_price_textview"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="2"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/gasoline_price_seekbar"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="5"
+        android:layout_gravity="fill_horizontal"
+        android:max="1000"
+        android:paddingTop="@dimen/padding_seekba"
+        android:paddingBottom="@dimen/padding_seekba"
+        android:progress="500" />
+
+
+    <TextView
+        android:id="@+id/ethanolTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="6dp"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:text="@string/ethanol_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/ethanol_price_textview"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="2"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/ethanol_price_seekbar"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="5"
+        android:layout_gravity="fill_horizontal"
+        android:max="1000"
+        android:paddingTop="@dimen/padding_seekba"
+        android:paddingBottom="@dimen/padding_seekba"
+        android:progress="500" />
+
+
+    <TextView
+        android:id="@+id/infomation_textview"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="2"
+        android:paddingTop="@dimen/padding_textview"
+        android:paddingBottom="@dimen/padding_textview"
+        android:text="@string/what_to_use"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/best_choice_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:paddingTop="@dimen/padding_textview"
+            android:paddingBottom="@dimen/padding_textview"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="@string/gasoline"/>
+
+
+    <ImageView
+        android:id="@+id/best_choice_imagenview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gasoline" />
+
+
+</GridLayout>

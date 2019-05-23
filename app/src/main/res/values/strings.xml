@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Best Fuel</string>
+    <string name="slogan">find the best fuel to use</string>
+    <string name="gasoline_textview">liter price of gasoline</string>
+    <string name="ethanol_textview">liter price of ethanol</string>
+    <string name="what_to_use">"It's better to use ... "</string>
+    <string name="gasoline">"Gasoline"</string>
+    <string name="ethanol">"Ethanol"</string>
+</resources>
